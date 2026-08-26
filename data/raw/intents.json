@@ -1,0 +1,221 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey there", "Good morning", "Good afternoon", "Good evening",
+        "Howdy", "Greetings", "Hi bot", "Hey assistant", "Hello team", "Is anyone there?",
+        "Hi how are you?", "Hey!", "Hello chatbot"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What can I do for you today?",
+        "Hello! I am your AI assistant. How may I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Catch you later", "Have a good day",
+        "I am leaving", "Talk to you later", "Bye bye", "Exit", "Quit", "End chat"
+      ],
+      "responses": [
+        "Goodbye! Have a great day ahead.",
+        "Thank you for chatting with us. See you soon!",
+        "Take care! Feel free to return if you have more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thank you so much", "Appreciate it", "Thanks for your help",
+        "Awesome thanks", "That was very helpful", "Thank you bot", "Much appreciated"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could be of assistance!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me", "I need assistance", "Can you help me?", "What can you do?",
+        "Support needed", "How does this work?", "Show me commands", "Guide me",
+        "What options do I have?"
+      ],
+      "responses": [
+        "I can help you with account info, password reset, order tracking, payments, refunds, tech support, and product inquiries. What do you need help with?",
+        "I am an AI assistant here to help with your orders, account settings, billing, and technical queries."
+      ]
+    },
+    {
+      "tag": "account_info",
+      "patterns": [
+        "Where can I see my account details?", "Show my profile", "My account settings",
+        "View user account", "How do I update my profile?", "Check my profile information",
+        "Manage account", "My user profile", "Account details"
+      ],
+      "responses": [
+        "You can view and update your account details by visiting your Account Settings page.",
+        "To manage your profile, log in and navigate to Account -> Profile Settings."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password", "How do I reset my password?", "Change password",
+        "Lost my password", "Password reset link", "Can't log in password issue",
+        "Reset user password", "Forgot passcode", "Need to change my login password"
+      ],
+      "responses": [
+        "I can help you reset your password. Please visit the password reset page or enter your registered email address.",
+        "To reset your password, click on 'Forgot Password' on the login screen and follow the instructions sent to your email."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?", "Track my order", "Order status", "Has my package shipped?",
+        "Check order delivery", "When will my order arrive?", "Track shipment",
+        "Order # tracking", "Status of my purchase", "Is my order dispatched?"
+      ],
+      "responses": [
+        "Please provide your order number (e.g. 12345) so I can lookup your order status.",
+        "I can check your shipment status! What is your order reference number?"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I want a refund", "How to request a refund?", "Money back request",
+        "Return item for refund", "Can I get my money back?", "Refund status",
+        "Issue refund for order", "Process return and refund", "Refund policy"
+      ],
+      "responses": [
+        "You can request a refund within 30 days of delivery. Would you like me to guide you through submitting a return request?",
+        "Our refund policy covers full returns within 30 days. Please provide your order ID to initiate a refund."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?", "Can I pay with credit card?",
+        "PayPal payment", "Payment options", "Accepted cards", "Apple pay accepted?",
+        "Payment issue", "How to pay for my item?"
+      ],
+      "responses": [
+        "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, and Google Pay.",
+        "You can complete payment using any major credit card, debit card, or digital wallet."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "App is crashing", "System error", "Technical issue", "Software bug",
+        "Website not loading", "Error 500", "Feature not working", "Technical support required",
+        "Page is frozen", "Integration failing"
+      ],
+      "responses": [
+        "Our technical support team is here to assist. Could you describe the issue or error code you are encountering?",
+        "Sorry for the technical trouble! Please try clearing your cache, or describe the error for further troubleshooting."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Tell me about your product", "Product specifications", "Item features",
+        "What features does this product have?", "Product documentation",
+        "Is this item in stock?", "Pricing and features", "Product details"
+      ],
+      "responses": [
+        "Our products come with premium features, full cloud sync, and 24/7 support. You can view detailed specs on our product page.",
+        "You can browse all product specifications and stock availability in our online store catalog."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I am very unhappy with the service", "Bad customer support", "Filing a complaint",
+        "Worst service ever", "I want to escalate this", "Manager contact",
+        "Terrible experience", "Report an issue with staff"
+      ],
+      "responses": [
+        "We sincerely apologize for your poor experience. Please share your details so our management team can address your complaint immediately.",
+        "Your feedback is important to us. I am escalating your complaint to our customer care manager."
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "Cancel my subscription", "How to cancel order?", "I want to cancel",
+        "Stop my membership", "Cancel service", "Close my subscription account",
+        "Cancel purchase"
+      ],
+      "responses": [
+        "You can cancel your subscription anytime under Account Settings -> Subscriptions.",
+        "To cancel an unfulfilled order, please provide your order ID immediately."
+      ]
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "Invoice request", "Where is my bill?", "Incorrect charge on my statement",
+        "Billing history", "Tax invoice download", "Overcharged issue",
+        "Subscription billing cycle", "Download receipt"
+      ],
+      "responses": [
+        "You can download all past invoices and receipts directly from the Billing tab in your account.",
+        "If you see an incorrect charge, please share the invoice number so our billing department can review it."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "Shipping costs", "How long does delivery take?", "Do you ship internationally?",
+        "Express shipping available?", "Delivery options", "Shipping address update",
+        "Free shipping eligibility"
+      ],
+      "responses": [
+        "Standard shipping takes 3-5 business days. Express delivery arrives in 1-2 days. We ship internationally to over 50 countries!",
+        "Free standard shipping is automatically applied to orders over $50."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I want to give feedback", "Suggestion for improvement", "Feature request",
+        "Great service", "User feedback", "Submit a review", "Idea for your app"
+      ],
+      "responses": [
+        "Thank you for sharing your feedback! We love hearing from users to improve our product.",
+        "We appreciate your suggestions! I'll pass your comments along to our product team."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "Is my data secure?", "Privacy policy", "Data protection", "2FA setup",
+        "Two factor authentication", "Is payment secure?", "Security concerns",
+        "GDPR compliance"
+      ],
+      "responses": [
+        "Your security is our top priority. We use AES-256 encryption, SSL/TLS protocol, and are fully GDPR compliant.",
+        "You can enable Two-Factor Authentication (2FA) under Security Settings to protect your account."
+      ]
+    },
+    {
+      "tag": "unknown_fallback",
+      "patterns": [
+        "asdfghjkl", "qwertyuiop", "random gibberish text", "1234567890",
+        "xyz abc 999", "foobar blabla"
+      ],
+      "responses": [
+        "I'm not completely sure I understood that. Could you rephrase your question?",
+        "I didn't quite catch that. Could you provide a bit more detail?"
+      ]
+    }
+  ]
+}

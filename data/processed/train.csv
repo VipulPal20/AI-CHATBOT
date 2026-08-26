@@ -1,0 +1,112 @@
+text,intent,label
+idea for your app,feedback,4
+invoice request,billing,1
+can you help me,help,7
+status of my purchase,order_status,8
+thank you so much,thanks,16
+subscription billing cycle,billing,1
+filing a complaint,complaint,3
+data protection,security,13
+where is my bill,billing,1
+app is crashing,technical_support,15
+hi how are you,greeting,6
+manager contact,complaint,3
+bye,goodbye,5
+what do,help,7
+process return and refund,refund,12
+2fa setup,security,13
+bad customer support,complaint,3
+cancel my subscription,cancellation,2
+accepted cards,payment,10
+guide me,help,7
+end chat,goodbye,5
+terrible experience,complaint,3
+qwertyuiop,unknown_fallback,17
+exit,goodbye,5
+order tracking,order_status,8
+thank you bot,thanks,16
+tax invoice download,billing,1
+is this item in stock,product_info,11
+shipping costs,shipping,14
+hey,greeting,6
+foobar blabla,unknown_fallback,17
+good evening,greeting,6
+feature request,feedback,4
+change password,password_reset,9
+report an issue with staff,complaint,3
+security concerns,security,13
+website not loading,technical_support,15
+where is my order,order_status,8
+refund status,refund,12
+shipping address update,shipping,14
+pricing and features,product_info,11
+how long does delivery take,shipping,14
+what can you do,help,7
+cancel service,cancellation,2
+password reset link,password_reset,9
+paypal payment,payment,10
+my user profile,account_info,0
+hey there,greeting,6
+overcharged issue,billing,1
+cant log in password issue,password_reset,9
+i need assistance,help,7
+technical issue,technical_support,15
+is anyone there,greeting,6
+privacy policy,security,13
+check order delivery,order_status,8
+two factor authentication,security,13
+order status,order_status,8
+delivery options,shipping,14
+i want to give feedback,feedback,4
+what features does this product have,product_info,11
+i want a refund,refund,12
+error 500,technical_support,15
+have a good day,goodbye,5
+hi,greeting,6
+can i pay with credit card,payment,10
+appreciate it,thanks,16
+what payment methods do you accept,payment,10
+xyz abc 999,unknown_fallback,17
+item features,product_info,11
+thank you,thanks,16
+1234567890,unknown_fallback,17
+tell me about your product,product_info,11
+money back request,refund,12
+quit,goodbye,5
+hey assistant,greeting,6
+system error,technical_support,15
+is payment secure,security,13
+account details,account_info,0
+is my order dispatched,order_status,8
+i forgot my password,password_reset,9
+hello team,greeting,6
+technical support required,technical_support,15
+forgot passcode,password_reset,9
+submit a review,feedback,4
+track shipment,order_status,8
+payment options,payment,10
+i am leaving,goodbye,5
+close my subscription account,cancellation,2
+bye bye,goodbye,5
+goodbye,goodbye,5
+good afternoon,greeting,6
+integration failing,technical_support,15
+i am very unhappy with the service,complaint,3
+view user account,account_info,0
+support needed,help,7
+reset user password,password_reset,9
+help me,help,7
+product specifications,product_info,11
+greetings,greeting,6
+thanks for your help,thanks,16
+cancel purchase,cancellation,2
+return item for refund,refund,12
+billing history,billing,1
+user feedback,feedback,4
+thanks,thanks,16
+i want to cancel,cancellation,2
+express shipping available,shipping,14
+check my profile information,account_info,0
+how do i update my profile,account_info,0
+where can i see my account details,account_info,0
+how to request a refund,refund,12

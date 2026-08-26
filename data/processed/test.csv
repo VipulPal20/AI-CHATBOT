@@ -1,0 +1,25 @@
+text,intent,label
+my account settings,account_info,0
+free shipping eligibility,shipping,14
+asdfghjkl,unknown_fallback,17
+howdy,greeting,6
+feature not working,technical_support,15
+track my order,order_status,8
+great service,feedback,4
+how does this work,help,7
+gdpr compliance,security,13
+what options do i have,help,7
+that was very helpful,thanks,16
+catch you later,goodbye,5
+apple pay accepted,payment,10
+issue refund for order,refund,12
+much appreciated,thanks,16
+incorrect charge on my statement,billing,1
+i want to escalate this,complaint,3
+product details,product_info,11
+lost my password,password_reset,9
+stop my membership,cancellation,2
+payment issue,payment,10
+hello chatbot,greeting,6
+has my package shipped,order_status,8
+good morning,greeting,6

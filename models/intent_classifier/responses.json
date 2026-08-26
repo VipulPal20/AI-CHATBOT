@@ -1,0 +1,79 @@
+{
+  "greeting": [
+    "Hello! How can I assist you today?",
+    "Hi there! How can I help you?",
+    "Greetings! What can I do for you today?",
+    "Hello! I am your AI assistant. How may I help you?"
+  ],
+  "goodbye": [
+    "Goodbye! Have a great day ahead.",
+    "Thank you for chatting with us. See you soon!",
+    "Take care! Feel free to return if you have more questions."
+  ],
+  "thanks": [
+    "You're very welcome!",
+    "Happy to help!",
+    "Anytime! Let me know if you need anything else.",
+    "Glad I could be of assistance!"
+  ],
+  "help": [
+    "I can help you with account info, password reset, order tracking, payments, refunds, tech support, and product inquiries. What do you need help with?",
+    "I am an AI assistant here to help with your orders, account settings, billing, and technical queries."
+  ],
+  "account_info": [
+    "You can view and update your account details by visiting your Account Settings page.",
+    "To manage your profile, log in and navigate to Account -> Profile Settings."
+  ],
+  "password_reset": [
+    "I can help you reset your password. Please visit the password reset page or enter your registered email address.",
+    "To reset your password, click on 'Forgot Password' on the login screen and follow the instructions sent to your email."
+  ],
+  "order_status": [
+    "Please provide your order number (e.g. 12345) so I can lookup your order status.",
+    "I can check your shipment status! What is your order reference number?"
+  ],
+  "refund": [
+    "You can request a refund within 30 days of delivery. Would you like me to guide you through submitting a return request?",
+    "Our refund policy covers full returns within 30 days. Please provide your order ID to initiate a refund."
+  ],
+  "payment": [
+    "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, and Google Pay.",
+    "You can complete payment using any major credit card, debit card, or digital wallet."
+  ],
+  "technical_support": [
+    "Our technical support team is here to assist. Could you describe the issue or error code you are encountering?",
+    "Sorry for the technical trouble! Please try clearing your cache, or describe the error for further troubleshooting."
+  ],
+  "product_info": [
+    "Our products come with premium features, full cloud sync, and 24/7 support. You can view detailed specs on our product page.",
+    "You can browse all product specifications and stock availability in our online store catalog."
+  ],
+  "complaint": [
+    "We sincerely apologize for your poor experience. Please share your details so our management team can address your complaint immediately.",
+    "Your feedback is important to us. I am escalating your complaint to our customer care manager."
+  ],
+  "cancellation": [
+    "You can cancel your subscription anytime under Account Settings -> Subscriptions.",
+    "To cancel an unfulfilled order, please provide your order ID immediately."
+  ],
+  "billing": [
+    "You can download all past invoices and receipts directly from the Billing tab in your account.",
+    "If you see an incorrect charge, please share the invoice number so our billing department can review it."
+  ],
+  "shipping": [
+    "Standard shipping takes 3-5 business days. Express delivery arrives in 1-2 days. We ship internationally to over 50 countries!",
+    "Free standard shipping is automatically applied to orders over $50."
+  ],
+  "feedback": [
+    "Thank you for sharing your feedback! We love hearing from users to improve our product.",
+    "We appreciate your suggestions! I'll pass your comments along to our product team."
+  ],
+  "security": [
+    "Your security is our top priority. We use AES-256 encryption, SSL/TLS protocol, and are fully GDPR compliant.",
+    "You can enable Two-Factor Authentication (2FA) under Security Settings to protect your account."
+  ],
+  "unknown_fallback": [
+    "I'm not completely sure I understood that. Could you rephrase your question?",
+    "I didn't quite catch that. Could you provide a bit more detail?"
+  ]
+}

@@ -1,0 +1,25 @@
+text,intent,label
+show my profile,account_info,0
+suggestion for improvement,feedback,4
+page is frozen,technical_support,15
+product documentation,product_info,11
+how do i reset my password,password_reset,9
+talk to you later,goodbye,5
+awesome thanks,thanks,16
+show me commands,help,7
+need to change my login password,password_reset,9
+hello,greeting,6
+random gibberish text,unknown_fallback,17
+software bug,technical_support,15
+refund policy,refund,12
+how to cancel order,cancellation,2
+manage account,account_info,0
+can i get my money back,refund,12
+hi bot,greeting,6
+see you later,goodbye,5
+worst service ever,complaint,3
+download receipt,billing,1
+do you ship internationally,shipping,14
+when will my order arrive,order_status,8
+is my data secure,security,13
+how to pay for my item,payment,10

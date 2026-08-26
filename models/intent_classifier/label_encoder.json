@@ -1,0 +1,20 @@
+{
+  "0": "account_info",
+  "1": "billing",
+  "2": "cancellation",
+  "3": "complaint",
+  "4": "feedback",
+  "5": "goodbye",
+  "6": "greeting",
+  "7": "help",
+  "8": "order_status",
+  "9": "password_reset",
+  "10": "payment",
+  "11": "product_info",
+  "12": "refund",
+  "13": "security",
+  "14": "shipping",
+  "15": "technical_support",
+  "16": "thanks",
+  "17": "unknown_fallback"
+}
